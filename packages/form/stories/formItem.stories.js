@@ -4,7 +4,7 @@ import LlxButton from '../../button/index'
 import LlxInput from '../../input/index'
 
 export default {
-  title: 'llx-form',
+  title: 'Llx-form',
   component: LlxForm
 }
 

@@ -1,7 +1,7 @@
 import LlxInput from '../index'
 
 export default {
-  title: 'llx-input',
+  title: 'Llx-input',
   component: LlxInput
 }
 
@@ -16,7 +16,7 @@ export const Text = () => ({
 })
 
 export const Password = () => ({
-  components: { LgInput },
+  components: { LlxInput },
   template: '<llxinput type="password" placeholder="请输入密码" @input="handleInput"></llx-input>',
   methods: {
     handleInput(value) {

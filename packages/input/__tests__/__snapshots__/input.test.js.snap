@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`llx-input input-sanpshot 1`] = `
+<div>
+  <input
+    type="password"
+  />
+</div>
+`;
