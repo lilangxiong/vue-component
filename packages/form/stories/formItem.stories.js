@@ -1,28 +1,27 @@
-import LgForm from '../../form/index'
-import LgFormItem from '../../formItem/index'
-import LgButton from '../../button/index'
-import LgInput from '../../input/index'
+import LlxForm from '../../form/index'
+import LlxFormItem from '../../formItem/index'
+import LlxButton from '../../button/index'
+import LlxInput from '../../input/index'
 
 export default {
-  title: 'lg-form',
-  component: LgForm
+  title: 'llx-form',
+  component: LlxForm
 }
 
 export const Login = () => ({
-  components: { LgForm, LgFormItem, LgButton, LgInput },
+  components: { LlxForm, LlxFormItem, LlxButton, LlxInput },
   template: `
-    <lg-form class="form" ref="form" :model="user" :rules="rules">
-      <lg-form-item label="用户名" prop="username">
-        <!-- <lg-input v-model="user.username"></lg-input> -->
-        <lg-input :value="user.username" @input="user.username=$event" placeholder="请输入您的用户名"></lg-input>
-      </lg-form-item>
-      <lg-form-item label="密码" prop="password">
-        <lg-input type="password" placeholder="请输入密码" v-model="user.password"></lg-input>
-      </lg-form-item>
-      <lg-form-item>
-        <lg-button type="primary" @click="login">登 录</lg-button>
-      </lg-form-item>
-    </lg-form>`,
+    <llx-form class="form" ref="form" :model="user" :rules="rules">
+      <llx-form-item label="用户名" prop="username">
+        <llx-input :value="user.username" @input="user.username=$event" placeholder="请输入您的用户名"></llx-input>
+      </llx-form-item>
+      <llx-form-item label="密码" prop="password">
+        <llx-input type="password" placeholder="请输入密码" v-model="user.password"></llx-input>
+      </llx-form-item>
+      <llx-form-item>
+        <llx-button type="primary" @click="login">登 录</llx-button>
+      </llx-form-item>
+    </llx-form>`,
   data() {
     return {
       user: {

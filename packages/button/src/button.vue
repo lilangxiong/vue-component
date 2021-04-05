@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'lgButton',
+  name: 'llxButton',
   methods: {
     handleClick(evt) {
       evt.preventDefault()

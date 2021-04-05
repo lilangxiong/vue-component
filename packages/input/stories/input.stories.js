@@ -1,13 +1,13 @@
-import LgInput from '../index'
+import LlxInput from '../index'
 
 export default {
-  title: 'lg-input',
-  component: LgInput
+  title: 'llx-input',
+  component: LlxInput
 }
 
 export const Text = () => ({
-  components: { LgInput },
-  template: '<lg-input type="text" placeholder="请输入用户名" @input="handleInput"></lg-input>',
+  components: { LlxInput },
+  template: '<llx-input type="text" placeholder="请输入用户名" @input="handleInput"></llx-input>',
   methods: {
     handleInput(value) {
       console.log('handleTextInput: ', value)
@@ -17,7 +17,7 @@ export const Text = () => ({
 
 export const Password = () => ({
   components: { LgInput },
-  template: '<lg-input type="password" placeholder="请输入密码" @input="handleInput"></lg-input>',
+  template: '<llxinput type="password" placeholder="请输入密码" @input="handleInput"></llx-input>',
   methods: {
     handleInput(value) {
       console.log('handlePasswordInput: ', value)
