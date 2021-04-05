@@ -1,15 +1,13 @@
 {
-"name": "llx-link",
-"version": "0.0.0",
-"description": "llx-link component",
-"main": "dist/cjs/index.js",
-"module": "dist/es/index.js",
-"author": "lilangxiong <1624244265@qq.com>",
+  "name": "llx-link",
+  "version": "0.0.2",
+  "description": "llx-link component",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "author": "lilangxiong <1624244265@qq.com>",
   "license": "MIT",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": []
-  }
+}
